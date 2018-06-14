@@ -17,8 +17,9 @@
     "sentiment": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
